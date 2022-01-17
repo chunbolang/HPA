@@ -19,7 +19,7 @@ This repo contains the code for paper "*Holistic Prototype Activation for Few-Sh
 
 ### Usage
 
-1. Download the prior prototypes of base categories from our [Google Drive](https://drive.google.com/file/d/1YFE-uLBBz89AflsJsa44R-4gqBhhyPer/view?usp=sharing) and put them under `HPA/initmodel/prototypes`. 
+1. Download the prior prototypes of base categories from our [Google Drive](https://drive.google.com/file/d/11-VHCAAO6NcnP2OzZdT2rNrGpC9LqKPh/view?usp=sharing) and put them under `HPA/initmodel/prototypes`. 
 2. Download the pre-trained backbones from [here](https://drive.google.com/file/d/1AQcvMHHpURZM67MMgV-S3T0Kz-h2q7FR/view?usp=sharing).
 3. Change configuration via the `.yaml` files in `HPA/config`, then run the `.sh` scripts for training and testing.
 
