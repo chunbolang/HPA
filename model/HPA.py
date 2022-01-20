@@ -327,6 +327,7 @@ class OneModel(nn.Module):
         # --------------  Prototype Activation Module (PAM) --------------
         if self.training and self.cls_type == 'Base':
             c_id_array = torch.arange(0,num_Pros, device='cuda')
+            # using <torch.gather> might simplify the loop below
             for b_id in range(bs):
                 c_id = cat_idx[0][b_id].reshape(1)
                 c_ids = c_id_array[c_id_array!=c_id]
