@@ -400,9 +400,7 @@ class OneModel(nn.Module):
 
             prob_map = F.interpolate(concat_map, size=(h, w), mode='bilinear', align_corners=True)
             if isinstance(self.aux_criterion, nn.modules.loss.MSELoss):
-                y_flatten = y.reshape(bs,-1)
-                prob_map_flatten = prob_map.reshape(bs,-1)
-                aux_loss = self.aux_criterion(y_flatten[y_flatten!=255].unsqueeze(0),prob_map_flatten[y_flatten!=255].unsqueeze(0))/bs
+                aux_loss = self.aux_criterion(prob_map[0][y!=255], y[y!=255])/bs                
             elif isinstance(self.aux_criterion, nn.modules.loss.CrossEntropyLoss):
                 map_out = torch.cat([1-prob_map,prob_map], dim=1)
                 aux_loss = self.criterion(map_out, y.long())
