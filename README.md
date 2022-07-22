@@ -1,6 +1,6 @@
 # Holistic Prototype Activation for Few-Shot Segmentation
 
-This repo contains the code for paper "*Holistic Prototype Activation for Few-Shot Segmentation*" by Gong Cheng, Chunbo Lang, and Junwei Han.
+This repo contains the code for our **TPAMI 2022** paper "*Holistic Prototype Activation for Few-Shot Segmentation*" by Gong Cheng, Chunbo Lang, and Junwei Han.
 
 ### Dependencies
 
@@ -27,10 +27,6 @@ This repo contains the code for paper "*Holistic Prototype Activation for Few-Sh
 
 Training and testing scripts are coming soon.
 
-### References
-
-This repo is built based on [PFENet](https://github.com/dvlab-research/PFENet) and [DANet](https://github.com/junfu1115/DANet). Thanks for their great work!
-
 ### To-Do List
 
 - [x] Support different backbones
@@ -39,5 +35,19 @@ This repo is built based on [PFENet](https://github.com/dvlab-research/PFENet) a
 - [ ] FSS-1000 dataset
 - [ ] Multi-GPU training
 
+### References
 
+This repo is built based on [PFENet](https://github.com/dvlab-research/PFENet) and [DANet](https://github.com/junfu1115/DANet). Thanks for their great work!
 
+### BibTeX
+
+If you find our work and this repository useful. Please consider giving a star :star: and citation &#x1F4DA;.
+
+```bibtex
+@article{lang2022hpa,
+  title={Holistic Prototype Activation for Few-Shot Segmentation},
+  author={Cheng, Gong and Lang, Chunbo and Han, Junwei},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022},
+}
+```
