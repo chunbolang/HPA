@@ -4,7 +4,7 @@ This repo contains the code for our **IEEE TPAMI 2022** paper "*Holistic Prototy
 
 ## 📋 Note
 
-Please refer to our BAM repository for the latest training/testing scripts. HPA can also be naturally combined with BAM (state-of-the-art) as a stronger meta-learner, with potential for further improvement.
+Please refer to our BAM [repository](https://github.com/chunbolang/BAM) for the latest training/testing scripts. HPA can also be naturally combined with BAM (state-of-the-art) as a stronger meta-learner, with potential for further improvement.
 
 ##
 ### Dependencies
