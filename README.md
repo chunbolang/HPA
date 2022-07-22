@@ -1,6 +1,6 @@
 # Holistic Prototype Activation for Few-Shot Segmentation
 
-This repo contains the code for our **TPAMI 2022** paper "*Holistic Prototype Activation for Few-Shot Segmentation*" by Gong Cheng, Chunbo Lang, and Junwei Han.
+This repo contains the code for our **IEEE TPAMI 2022** paper "*Holistic Prototype Activation for Few-Shot Segmentation*" by Gong Cheng, Chunbo Lang, and Junwei Han.
 
 ### Dependencies
 
